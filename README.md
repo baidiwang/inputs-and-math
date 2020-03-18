@@ -7,11 +7,11 @@ This exercise leverages data attributes, html and javascript to build a simple c
 ## Preflight
 
 You know the drill.
-1. Pull an update for `edu`
-2. Your repo should be called `inputs_and_math`
-3. Copy/paste the skeleton (no `readme` or `solution`) into your newly-cloned repo
-4. Before you begin, commit what you have (from the copy/paste) so that you have a clean skeleton to reset to should you need to
-5. No peeking at the solution
+1\. Pull an update for `edu`
+2\. Your repo should be called `inputs_and_math`
+3\. Copy/paste the skeleton (no `readme` or `solution`) into your newly-cloned repo
+4\. Before you begin, commit what you have (from the copy/paste) so that you have a clean skeleton to reset to should you need to
+5\. No peeking at the solution
 
 ## Preview
 
