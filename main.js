@@ -1,6 +1,6 @@
 $("body").on("keyup keydown keypress change", ".item input", function (e) {
-	let pre_tariff_total_all = 0;
-	let post_tariff_total_all = 0;
+	let pre_tariff_total_sum = 0;
+	let post_tariff_total_sum = 0;
 	//finds each item within a table row
 	$("tr.item").each(function () {
 		const $this_row = $(this);
@@ -49,9 +49,9 @@ $("body").on("keyup keydown keypress change", ".item input", function (e) {
 
 	console.log("Pre tariff total sum");
 	console.log(pre_tariff_total_sum);
-	$("pre_total span").text(pre_tariff_total_sum);
+	$("#pre_total span").text(pre_tariff_total_sum);
 
 	console.log("Post tariff total sum");
 	console.log(post_tariff_total_sum);
-	$("pre_total span").text(post_tariff_total_sum);
+	$("#post_total span").text(post_tariff_total_sum);
 }); //ends the key press listener
